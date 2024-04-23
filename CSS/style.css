@@ -1,0 +1,91 @@
+body {
+  background-color: #f3f3f3;
+}
+
+.container {
+  background-color: #fbfbfb;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 3px;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: -2.5em;
+  font-weight: 600;
+}
+
+.heading::before {
+  display: block;
+  content: '';
+  width: inherit;
+  height: 0.4em;
+  background: red;
+}
+.heading::after {
+  display: block;
+  content: '';
+  width: inherit;
+  height: 0.4em;
+  background: red;
+}
+
+.desc {
+  margin-left: 15px;
+  padding-right: 50px;
+}
+.thumbnail {
+  margin-top: -30.8em;
+}
+
+.vid {
+  margin-top: 8em;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+}
+
+.second-header {
+  text-align: left;
+  margin-top: 0.5em;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 3ch;
+}
+
+.second-header::before {
+  content: '';
+  display: inline-block;
+  background: red;
+  width: 20px;
+  height: 0.6em;
+  margin-right: 5px;
+  margin-bottom: 2px;
+}
+
+.second-header::after {
+  content: '';
+  display: inline-block;
+  background: red;
+  width: 80%;
+  height: 0.6em;
+  margin-left: 10px;
+  margin-bottom: 2px;
+}
+
+.spec {
+  margin-left: 1em;
+}
+
+.spec h4 {
+  font-size: 1.2em;
+  font-weight: 700;
+  width: 30%;
+}
+
+.spec span {
+  font-weight: 500;
+  margin-left: 10px;
+}
